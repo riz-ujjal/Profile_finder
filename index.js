@@ -5,3 +5,10 @@ const diaplay_bio = document.querySelector("#bio-display");
 const count_follower = document.querySelector("#followers-count");
 const count_following = document.querySelector("#following-count");
 const count_repos = document.querySelector("#repo-count")
+
+search_button.addEventListener("click", async () =>{
+    const user = user_input.value;
+    const response = await fetch("https://api.github.com/user/google");
+    const data = await response.json();
+    
+})
