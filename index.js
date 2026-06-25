@@ -5,10 +5,9 @@ const display_bio = document.querySelector("#bio-display");
 const count_follower = document.querySelector("#followers-count");
 const count_following = document.querySelector("#following-count");
 const count_repos = document.querySelector("#repo-count");
-// Grab the image element and hide it
 const user_avatar = document.querySelector("#avatar");
 user_avatar.style.display = "none";
-// /add avatar which is image
+
 
 search_button.addEventListener("click", async () => {
   const user = user_input.value;
